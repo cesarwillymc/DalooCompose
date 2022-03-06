@@ -1,5 +1,6 @@
 package com.cesarwillymc.daloocompose
 
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -9,12 +10,16 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.tooling.preview.Preview
 import com.cesarwillymc.daloocompose.ui.theme.DalooComposeTheme
+import com.cesarwillymc.daloocompose.ui.theme.FRACTION_10
+import com.cesarwillymc.daloocompose.ui.theme.Responsive
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             DalooComposeTheme {
                 // A surface container using the 'background' color from the theme
