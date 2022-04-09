@@ -15,6 +15,7 @@ import com.cesarwillymc.daloocompose.ui.theme.DalooComposeTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             DalooComposeTheme {
                 // A surface container using the 'background' color from the theme
