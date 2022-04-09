@@ -10,7 +10,7 @@ import androidx.compose.ui.platform.LocalConfiguration
 
 private val DarkColorPalette = darkColors(
     primary = InformativeBlueDark,
-    secondary = BabyBlue,
+    secondary = White,
     error = DangerRed,
     background = OnyxBlack
 
